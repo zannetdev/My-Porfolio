@@ -5,7 +5,6 @@ import {
   Image,
   List,
   ListItem,
-  SimpleGrid,
   Button,
   Link,
   useColorModeValue
@@ -15,14 +14,12 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
   IoFileTrayStackedSharp
 } from 'react-icons/io5'
-import { ImageSSR } from '../components/img-ssr'
 
 const Page = () => {
   return (
