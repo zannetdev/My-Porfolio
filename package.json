@@ -1,17 +1,20 @@
 {
-  "name": "my-porfolio",
+  "name": "zannetdev-homepage",
   "version": "1.0.0",
-  "description": "For run this application clone this repository",
+  "description": "zannetdev portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "next dev -H 0.0.0.0",
+    "build" :  "next build",
+    "prettier" : "prettier -write .",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zannetdev/My-Porfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eduardo González <zannetdev@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zannetdev/My-Porfolio/issues"
@@ -25,5 +28,10 @@
     "next": "^12.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "prettier": "^2.7.1"
   }
 }
