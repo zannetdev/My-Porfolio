@@ -15,7 +15,6 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { HamburgerIcon } from '@chakra-ui/icons'
 import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
@@ -23,6 +22,7 @@ import {
   IoLogoGithub,
   IoFileTrayStackedSharp
 } from 'react-icons/io5'
+import { ImageSSR } from '../components/img-ssr'
 
 const Page = () => {
   return (
@@ -186,17 +186,6 @@ const Page = () => {
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1]} gap={6}>
-          <GridItem href="https://github.com/zannetdev">
-            <p align="center">
-              <img
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=zannetdev&langs_count=10&theme=tokyonight&layout=compact"
-                alt="AnhellO :: Top Langs"
-              />
-            </p>
-          </GridItem>
-        </SimpleGrid>
       </Section>
     </Container>
   )
