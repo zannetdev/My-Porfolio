@@ -4,9 +4,9 @@
   "description": "zannetdev portfolio",
   "main": "index.js",
   "scripts": {
-    "dev" : "next dev -H 0.0.0.0",
-    "build" :  "next build",
-    "prettier" : "prettier -write .",
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
     "lint": "next lint"
   },
   "repository": {
@@ -21,13 +21,16 @@
   },
   "homepage": "https://github.com/zannetdev/My-Porfolio#readme",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
     "@chakra-ui/react": "^2.2.4",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "framer-motion": "^6.5.1",
     "next": "^12.2.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "three": "^0.139.2"
   },
   "devDependencies": {
     "eslint": "^8.20.0",
