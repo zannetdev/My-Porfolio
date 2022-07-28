@@ -19,7 +19,7 @@ const Page = () => {
         mb={6}
         align="center"
       >
-        Hello!, I'm a Ghost, Indie Developer based In México!
+        Hello!, I&apos;m a Ghost, Indie Developer based In México!
       </Box>
 
       <Box display={{ md: 'flex' }}>
