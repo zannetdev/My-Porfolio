@@ -2,6 +2,7 @@
     "root" : true,
     "extends": "next",
     "rules" : {
+        "react/display-name": "off",
         "no-unused-vars": [
             "error",
             {
