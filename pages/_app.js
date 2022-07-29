@@ -1,6 +1,5 @@
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
-import theme from '../libs/theme'
 import Chakra from '../components/chakra'
 import { AnimatePresence } from 'framer-motion'
 

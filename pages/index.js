@@ -20,7 +20,6 @@ import {
   IoLogoGithub,
   IoFileTrayStackedSharp
 } from 'react-icons/io5'
-import Layout from '../components/layouts/article'
 
 const Page = () => {
   return (

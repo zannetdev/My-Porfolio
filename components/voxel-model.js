@@ -11,7 +11,6 @@ function easeOutCirc(x) {
 const VoxelDog = () => {
   const refContainer = useRef()
   var ax = 0
-  const [isRendered, setRend] = useState(false)
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
