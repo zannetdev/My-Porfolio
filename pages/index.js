@@ -20,10 +20,12 @@ import {
   IoLogoGithub,
   IoFileTrayStackedSharp
 } from 'react-icons/io5'
+import Layout from '../components/layouts/article'
 
 const Page = () => {
   return (
-    <Container>
+   
+        <Container>
       <Box
         borderRadius="lg"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
@@ -78,10 +80,12 @@ const Page = () => {
           specializing as a software engineer.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="https://www.facebook.com/gonedustx/" passHref>
+            <Link target="_blank">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="whatsapp">
-              My Portfolio
+              Contact Me
             </Button>
+            </Link>
           </NextLink>
         </Box>
       </Section>
@@ -150,7 +154,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/ZannetCode" target="_blank">
+            <Link href="https://stackshare.io/zannetdev/my-stack" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

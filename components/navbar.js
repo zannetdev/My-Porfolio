@@ -70,16 +70,17 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/bio" path={path}>
-            Bio
+          <LinkItem href="/" path={path}>
+            About
           </LinkItem>
-          <LinkItem href="/works" path={path}>
+
+          {/* <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          
+
           <LinkItem href="/contact" path={path}>
             Contact Me
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem
             target="_blank"
             href="https://github.com/zannetdev"
@@ -105,19 +106,20 @@ const Navbar = (props) => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>Bio</MenuItem>
+                  <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+               
+                {/* <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/contact" passHref>
                   <MenuItem as={Link}>Contact Me</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/zannetdev">
                               <IoLogoGithub />&nbsp;Github
-                </MenuItem>
+                </MenuItem> 
               </MenuList>
             </Menu>
           </Box>
