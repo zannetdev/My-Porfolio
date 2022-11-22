@@ -2,26 +2,11 @@ import {
   Container,
   Box,
   Heading,
-  Image,
-  List,
-  ListItem,
-  Button,
-  Link,
   useColorModeValue
 } from '@chakra-ui/react'
-import NextLink from 'next/link'
 import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import { BioSection, BioYear } from '../components/bio'
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoFileTrayStackedSharp
-} from 'react-icons/io5'
+
 import {  SimpleGrid } from '@chakra-ui/react/dist/chakra-ui-react.cjs'
-import { GridItem } from '../components/grid-item'
 import { WorkGridItem } from '../components/grid-item'
 import thumbPibi from '../public/works/pibi.png'
 import thumbFudu from '../public/works/fudu.png'
